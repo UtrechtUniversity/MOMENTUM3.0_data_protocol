@@ -3,9 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "Momentum Data Protocol"
+  title: "MOMENTUM 3.0 Data Protocol"
   navbar:
-    background: primary
+    background: "#333C68"
+    foreground: "#ffffff"
     logo: /images/logo.png
     logo-alt: 'Momentum logo'
     title: false

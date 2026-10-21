@@ -2,7 +2,7 @@
 title: "About Momentum"
 ---
 
-This website provides guidance for data management within Momentum.
+This website provides guidance for data management within MOMENTUM 3.0.
 
 Visit the [webpage](https://momentummicroplastics.nl/) to find out more about the research project.
 

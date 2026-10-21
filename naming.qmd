@@ -3,7 +3,7 @@ title: "Naming Convention"
 ---
 
 
-### Naming convention for Momentum data
+### Naming convention for MOMENTUM 3.0 data
 
 Name files as follows:
 [Partner]\_[Template]\_[Initials/ID]\_[Nr].[Extension]
@@ -15,19 +15,27 @@ tbl-cap-location: bottom
 +-------------+-----------------------------------------------------------------------+
 | Section     | Explanation                                                           |
 +=============+===========+===========================================================+
-| Partner     |  - UU = Utrecht University                                            |
+| Partner     |  - EMC = Erasmus MC                                                   |
+|             |  - UHASSELT = Hasselt University                                      |
+|             |  - LB = Lyondell Basell                                               |
+|             |  - UM = Maastricht University                                         |
+|             |  - MP = Malvern Panalytical                                           |
+|             |  - OU = Open University                                               |
+|             |  - PE = Plastics Europe                                               |
+|             |  - RIVM = National Institute for Public Health and the Environment    |
+|             |  - STX = Staxs                                                        |
+|             |  - TNO = TNO                                                          |
 |             |  - UMCU = UMC Utrecht                                                 |
 |             |  - RUG = University of Groningen                                      |
-|             |  - OU = Open University                                               |
-|             |  - UM = Maastricht University                                         |
-|             |  - UTWENTE = Technical University of Twente                           |
-|             |  - UV = Vrije Universiteit Amsterdam                                  |
+|             |  - UU = Utrecht University                                            |
+|             |  - VP = Valorisphere                                                  |
+|             |  - VC = Vitrocell                                                     |
 |             |  - WUR = Wageningen University & Research                             |
 |             |  - DELT = Stichting Deltares                                          |
-|             |  - KWR = KWR                                                          |
-|             |  - RIVM = National Institute for Public Health and the Environment    |
-|             |  - TNO = TNO                                                          |
-|             |  - UHASSELT = Hasselt University                                      |
+|             |  - ZMC = Zuyderland Medisch Centrum                                   |
++-------------+-----------------------------------------------------------------------+
+
+
 +-------------+-----------------------------------------------------------------------+
 | Templates   |  - elisa = ELISA                                                      |
 |             |  - qpcr = qPCR                                                        |

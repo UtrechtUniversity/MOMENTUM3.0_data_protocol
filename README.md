@@ -1,14 +1,14 @@
-# Momentum Data Guidelines
+# MOMENTUM Data Guidelines
 
 This is the source code for the Momentum Data Guidelines. You are currently viewing the GitHub repository that underlies it.
 The guidelines describe **Data management practices** of the Momentum project. The project is coordinated by Utrecht University.
 
-**Momentum** is a research project studying microplastics and their impact on human health. 
+**MOMENTUM** is a research project studying microplastics and their impact on human health. 
 
 
 ## What is this?
 
-These are guidelines specifically for the Momentum project. However, in a big part these recommendations are based on and derived from other more generic or elaborate reasources on e.g. data storage, archiving etc.
+These are guidelines specifically for the MOMENTUM project. However, in a big part these recommendations are based on and derived from other more generic or elaborate reasources on e.g. data storage, archiving etc.
 Please make sure to check those out as well.
 
 > [The Turing way](https://book.the-turing-way.org/) - is an open source community-driven guide to reproducible, ethical, inclusive and collaborative data science. The Turing Way book is collaboratively developed by its diverse community of researchers, learners, educators, and other stakeholders.

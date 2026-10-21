@@ -2,14 +2,14 @@
 title: "Momentum Data protocol"
 ---
 
-This is a draft website describing the workflow of Momentum data. 
-It is written mainly for data generators of Momentum.
+This is a website describing the workflow of Data Protocol in MOMENTUM 3.0. 
+It is written mainly for data generators of MOMENTUM 3.0.
 
-The website provides practical steps to help Momentum researchers align with the FAIR data management practices established in the project. Links are provided to chosen resources (for data transfer and publishing).
+The website provides practical steps to help MOMENTUM 3.0 researchers align with the FAIR data management practices established in the project. Links are provided to chosen resources (for data transfer and publishing).
 
 
 #### Further references
-The data management practices described here are specific for Momentum. However, in a big part these recommendations are based on and complemented by other more generic or elaborate reasources on e.g. data storage, archiving etc.
+The data management practices described here are specific for MOMENTUM 3.0. However, in a big part these recommendations are based on and complemented by other more generic or elaborate reasources on e.g. data storage, archiving etc.
 Please make sure to check those out as well.
 
 > [The Turing way](https://book.the-turing-way.org/) - open source community-driven guide to reproducible, ethical, inclusive and collaborative data science. The Turing Way book is collaboratively developed by its diverse community of researchers, learners, educators, and other stakeholders.
