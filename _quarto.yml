@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Momentum Data Protocol"
+  navbar:
+    background: primary
+    logo: /images/logo.png
+    logo-alt: 'Momentum logo'
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - decisions.qmd
+      - guide.qmd
+      - designer.qmd
+      - naming.qmd
+      - glossary.qmd
+    search: true
+  page-navigation: true
+  back-to-top-navigation: true
+  # announcement: 
+  #   type: warning
+  #   content: "The step-by-step guide and designer tabs are under construction" 
+
+
+format:
+  html:
+    embed-resources: true
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    toc-title: Content
+    toc-location: left
+    toc-depth: 4
+
+
+

@@ -1,0 +1,66 @@
+---
+title: "Step-by-step guide"
+lightbox: true
+---
+
+### YODA
+
+**YODA** is used in two ways within MOMENTUM. First, as a forum for file exchange to get suitable data into ENM (as direct upload is not supported). This means that ENM templates (filled by data generators) are uploaded here. Furthermore, Yoda is the chosen repository for long-term archiving and publishing as it is especially suitable for large files and managed by UU, who coordinates MOMENTUM. 
+
+::: {.callout-tip icon="false" appearence="simple" collapse="true"}
+More information and a detailed "manual" about YODA can be found on their [website](https://www.uu.nl/en/research/yoda/guide-to-yoda).
+:::
+
+::: {.callout-tip icon="false" appearence="simple" collapse="true"}
+## Good to know
+Apart from storage, data can also be published straight from YODA.
+:::
+
+Data generators receive an email to register, after which they can access the dedicated [website](https://dgk.yoda.uu.nl/) for data upload.
+
+The main folder is called **"research-enanomapper"** with an **"enm_filesharing"** and a **"for_publication"** folder within. There is also a README.txt file giving extra information on file naming. This information is also available under the [**naming convention**](/naming.qmd) tab.
+
+::: {.callout-note icon="false" appearence="simple"}
+Only MOMENTUM data generators, the responsible person from eNanomapper and data managers have access to this environment.
+:::
+
+#### Explanation of folder stucture
+
+-   The **enm_filesharing** is a dump folder that provides a collection place for Excel-based MOMENTUM data that will subsequently be transferred into the online database of eNanomapper. It has sub-folders corresponding to separate experiments. Templates should be uploaded into the fitting folder. If there is no fitting folder, one can simply create one (using lowercase letters and hyphens, if needed).
+-   All other data formats that are not suitable to be put into eNanomapper (e.g. microscopy, DNA sequencing etc.) are stored centrally in YODA. 
+-   The **for_publication** folder is intended for the minimum 'data packages'. These data packages contain all data underlying a publication accompanied by documentation on software used, protocols, description of variables etc. README files describe sub-folders and their contents. 
+For more information on how to organise folders, check [here](https://github.com/UtrechtUniversity/simple-python-templateOrganising) or for a more generic overview, see [here](https://zenodo.org/records/15149066). MOMENTUM data properly is part of good data management and therefore a key step.
+-   This folder is still quite empty. Data generators are free to create sub-folders for their *intended publications* to keep data packages there. 
+As mentioned before, **all MOMENTUM data underlying a publication** needs to be uploaded here and made open access once the corresponding article is published.
+
+![](/images/dataflow_website_15012025.png "General flow of MOMENTUM data")
+
+### eNanomapper
+
+"The eNanoMapper database is part of the computational infrastructure for toxicological data management of engineered nanomaterials, developed within the EU FP7 eNanoMapper project."[^1]
+
+[^1]: https://enanomapper.adma.ai/about/
+
+#### How to use eNanomapper for Momemtum data
+
+-   Navigate to the [**template wizard**](https://enanomapper.adma.ai/projects/momentum/datatemplates/) of MOMENTUM.
+-   Find template corresponding to experiment and adjust variables in the wizard. After downloading, fill in Excel sheet. In case the layout does not fit the experimental output (/you wish to adjust template layout to fit your data), please create a template in the [**template designer**](https://enanomapper.adma.ai/templates) instead. Templates obtained from the wizard and changed after download are not suitable for the data transfer into eNanomapper.
+-   After downloading and filling in suitable templates according to your respective research, upload Excel files to the corresponding sub-folders (name as the template/experiment name). Naming convention is described under the [**corresponding tab**](/naming.qmd).
+-   If there is no sub-folder for a given template/experiment yet, please create it under the enm_filesharing folder.
+-   There are no sub-folders in the publication folder yet so create one for your paper. Data that is not going to be published can also be placed in YODA. Please follow the same naming convention for traceability.
+
+
+::: {.callout-important icon="false" appearence="simple"}
+## Template wizard
+
+For a more elaborate walk-through, please consult the [user guide](https://enanomapper.adma.ai/assets/img/guide/guide.pdf) for the Template wizard.
+:::
+
+#### How to use the Template Designer
+- You can see the different steps of designing your own template on the [**Template designer tab**](/designer.qmd).
+
+::: {.callout-note icon="false" appearence="simple" collapse="true"}
+## Next step
+
+When the folders are populated with data, the partner from eNanomapper can fetch this data and parse it into the eNanomapper database.
+:::
