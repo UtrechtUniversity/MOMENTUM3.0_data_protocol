@@ -1,8 +1,8 @@
 ---
-title: "Momentum Data protocol"
+title: "Momentum Data Protocol"
 ---
 
-This is a website describing the workflow of Data Protocol in MOMENTUM 3.0. 
+This is a website describing the workflow of Data Protocol in **MOMENTUM 3.0**. 
 It is written mainly for data generators of MOMENTUM 3.0.
 
 The website provides practical steps to help MOMENTUM 3.0 researchers align with the FAIR data management practices established in the project. Links are provided to chosen resources (for data transfer and publishing).
@@ -21,7 +21,11 @@ Disclaimer: "All information in the handbook is specific to VU's local context."
 > [Data Privacy Handbook, UU](https://utrechtuniversity.github.io/dataprivacyhandbook/) - a guide to handling personal data in scientific research, in line with European data protection and privacy regulations. 
 DOI: 10.5281/zenodo.8005847
 
-::: {.callout-tip icon="false" appearence="simple"}
-Additionally, you can always consult the [resources](https://www.uu.nl/en/research/research-data-management) from the Central Research Manangement Support of Utrecht University. 
+::: {.callout-tip .momentum-callout icon="false" appearance="simple"}
+
+## Tip
+
+Additionally, you can always consult the [resources](https://www.uu.nl/en/research/research-data-management) from the Central Research Management Support of Utrecht University.
+
 :::
 

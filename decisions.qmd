@@ -4,12 +4,16 @@ lightbox: true
 ---
 
 ## Goal
-This page outlines the data management choices made within the MOMENTUM 3.0 project. Two main goals are addressed. The first goal is to have an **overall MOMENTUM data collection** where all data generated within the MOMENTUM 3.0 project is stored in a **sustainable and FAIR**, overseen by Utrecht University (UU). The idea is that all partners of MOMENTUM 3.0 have access to all data generated within the current project (and, where possible, previous projects). The second goal is to have **all the relevant data** from MOMENTUM 3.0 in the **eNanomapper (ENM) database**, so this data can be reused by researchers and serve as input for risk assessments now and in the future. 
+This page outlines the data management choices made within the MOMENTUM 3.0 project. Two main goals are addressed. 
+
+The first goal is to have an **overall MOMENTUM data collection** where all data generated within the MOMENTUM 3.0 project is stored in a **sustainable and FAIR**, overseen by Utrecht University (UU). The idea is that all partners of MOMENTUM 3.0 have access to all data generated within the current project (and, where possible, previous projects). 
+
+The second goal is to have **all the relevant data** from MOMENTUM 3.0 in the **eNanomapper (ENM) database**, so this data can be reused by researchers and serve as input for risk assessments now and in the future. 
 
 ## Data Strategy
 
 ### 1. MOMENTUM data collection
-The Partner Assembly (PA) of MOMENTUM 3.0 agreed that all data that is collected in the MOMENTUM 3.0 project should be stored at one location and remains available to the consortium after the project ends. For this, YODA has been selected as the data repository in MOMENTUM 3.0. Storing all MOMENTUM 3.0 data centrally on YODA is compulsory for partners in the MOMENTUM 3.0 project. 
+The Partner Assembly of MOMENTUM 3.0 agreed that all data that is collected in the MOMENTUM 3.0 project should be stored at one location and remains available to the consortium after the project ends. For this, YODA has been selected as the data repository in MOMENTUM 3.0. Storing all MOMENTUM 3.0 data centrally on YODA is compulsory for partners in the MOMENTUM 3.0 project. 
 
 For this, all data underlying publications must be uploaded in YODA. Additionally, unpublished data should, as much as possible, be uploaded to YODA whenever ready, or within 1 year after the end of the MOMENTUM 3.0 project. 
 Data underlying publications need to be organized in simple folders with sufficient documentation to make sense of this data (include e.g. readme files) per publication. These bundles of data shall be published (and archived) in YODA, with closed/restricted/open access (with DOI if requested). A similar structuring of data should be used for non-published data, for instance grouping per MOMENTUM partner/data generator or per Work Package. 
@@ -41,7 +45,9 @@ The data in YODA can be published with open, restricted or closed access. The da
 
 ### 8. Licensing
 In YODA there are several licenses available (when you fill in the metadata). A data license agreement is a legal instrument that informs others what they can and cannot do with given research data (and any documentation, scripts and metadata that are published with the data). It is important to consider what kind of limitations are relevant.
-The considerations below form the basis of the [Creative Common (CC)](https://creativecommons.org/licenses/) licenses:
+
+The considerations below form the basis of the [Creative Commons (CC)](https://creativecommons.org/licenses/) licenses:
+
 - Can copies be made or even distributed?
 - Do others (and you) reusing the dataset need to acknowledge you as the author of the original dataset? (“Attribution”)
 - Do others (and you) who reuse the dataset and/or make derivatives of the dataset need to share their work under a similar licence? (“Share-Alike”)
@@ -58,9 +64,11 @@ In a custom licence you can determine precisely how your data may be used and wh
 #### Implementing a custom license in YODA
 When using a custom license, please make sure to upload the license agreement as a PDF file in YODA. In the metadata of the data package, please indicate that a custom license is used and refer to the uploaded license agreement.
 When filling in the metadata, there are several licenses available in YODA, such as different types of Creative Commons licenses or an Open Data Commons license.
-In case the listed licenses are not suitable for your data package, or if you publish your data package under Restricted or Closed Access, you should create a custom license instead. When Custom is chosen, a License.txt file must be uploaded into the main folder of the data package. The custom license must provide information about: 
+In case the listed licenses are not suitable for your data package, or if you publish your data package under Restricted or Closed Access, you should create a custom license instead. When Custom is chosen, a License.txt file must be uploaded into the main folder of the data package. The custom license must provide information about:
+
 - Access conditions: how can access can be requested? What does the requester need to do or deliver before gaining access? At the very least, provide a contact point in the data package description. 
 - Usage conditions:
+
     - Permissions: who can reuse the data and for which purposes (research, education, commercial)?
     - Obligations: for example, are there requirements related to data security?
     - Prohibitions: for example, are there restrictions to sharing the data further?

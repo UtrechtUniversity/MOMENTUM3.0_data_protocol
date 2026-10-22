@@ -4053,6 +4053,15 @@ border-left-color: #CA5F87 !important;
 }
 main.content a {
 color: #CA5F87;
+}
+
+div.callout.momentum-callout {
+border-left-color: #CA5F87 !important;
+background-color: #fbf1f5;
+}
+
+div.callout.momentum-callout .callout-body {
+color: #333C68;
 }</style>
 </head>
 
@@ -4331,13 +4340,15 @@ color: #CA5F87;
 
 <section id="goal" class="level2">
 <h2 class="anchored" data-anchor-id="goal">Goal</h2>
-<p>This page outlines the data management choices made within the MOMENTUM 3.0 project. Two main goals are addressed. The first goal is to have an <strong>overall MOMENTUM data collection</strong> where all data generated within the MOMENTUM 3.0 project is stored in a <strong>sustainable and FAIR</strong>, overseen by Utrecht University (UU). The idea is that all partners of MOMENTUM 3.0 have access to all data generated within the current project (and, where possible, previous projects). The second goal is to have <strong>all the relevant data</strong> from MOMENTUM 3.0 in the <strong>eNanomapper (ENM) database</strong>, so this data can be reused by researchers and serve as input for risk assessments now and in the future.</p>
+<p>This page outlines the data management choices made within the MOMENTUM 3.0 project. Two main goals are addressed.</p>
+<p>The first goal is to have an <strong>overall MOMENTUM data collection</strong> where all data generated within the MOMENTUM 3.0 project is stored in a <strong>sustainable and FAIR</strong>, overseen by Utrecht University (UU). The idea is that all partners of MOMENTUM 3.0 have access to all data generated within the current project (and, where possible, previous projects).</p>
+<p>The second goal is to have <strong>all the relevant data</strong> from MOMENTUM 3.0 in the <strong>eNanomapper (ENM) database</strong>, so this data can be reused by researchers and serve as input for risk assessments now and in the future.</p>
 </section>
 <section id="data-strategy" class="level2">
 <h2 class="anchored" data-anchor-id="data-strategy">Data Strategy</h2>
 <section id="momentum-data-collection" class="level3">
 <h3 class="anchored" data-anchor-id="momentum-data-collection">1. MOMENTUM data collection</h3>
-<p>The Partner Assembly (PA) of MOMENTUM 3.0 agreed that all data that is collected in the MOMENTUM 3.0 project should be stored at one location and remains available to the consortium after the project ends. For this, YODA has been selected as the data repository in MOMENTUM 3.0. Storing all MOMENTUM 3.0 data centrally on YODA is compulsory for partners in the MOMENTUM 3.0 project.</p>
+<p>The Partner Assembly of MOMENTUM 3.0 agreed that all data that is collected in the MOMENTUM 3.0 project should be stored at one location and remains available to the consortium after the project ends. For this, YODA has been selected as the data repository in MOMENTUM 3.0. Storing all MOMENTUM 3.0 data centrally on YODA is compulsory for partners in the MOMENTUM 3.0 project.</p>
 <p>For this, all data underlying publications must be uploaded in YODA. Additionally, unpublished data should, as much as possible, be uploaded to YODA whenever ready, or within 1 year after the end of the MOMENTUM 3.0 project. Data underlying publications need to be organized in simple folders with sufficient documentation to make sense of this data (include e.g. readme files) per publication. These bundles of data shall be published (and archived) in YODA, with closed/restricted/open access (with DOI if requested). A similar structuring of data should be used for non-published data, for instance grouping per MOMENTUM partner/data generator or per Work Package.</p>
 </section>
 <section id="enanomapper-enm" class="level3">
@@ -4368,7 +4379,15 @@ color: #CA5F87;
 </section>
 <section id="licensing" class="level3">
 <h3 class="anchored" data-anchor-id="licensing">8. Licensing</h3>
-<p>In YODA there are several licenses available (when you fill in the metadata). A data license agreement is a legal instrument that informs others what they can and cannot do with given research data (and any documentation, scripts and metadata that are published with the data). It is important to consider what kind of limitations are relevant. The considerations below form the basis of the <a href="https://creativecommons.org/licenses/">Creative Common (CC)</a> licenses: - Can copies be made or even distributed? - Do others (and you) reusing the dataset need to acknowledge you as the author of the original dataset? (“Attribution”) - Do others (and you) who reuse the dataset and/or make derivatives of the dataset need to share their work under a similar licence? (“Share-Alike”) - Can others (and you) use your dataset commercially? (A restriction on commercial use is called “Non-Commercial”) - Can others (and you) create a new work based on the dataset? (“Derivative”)</p>
+<p>In YODA there are several licenses available (when you fill in the metadata). A data license agreement is a legal instrument that informs others what they can and cannot do with given research data (and any documentation, scripts and metadata that are published with the data). It is important to consider what kind of limitations are relevant.</p>
+<p>The considerations below form the basis of the <a href="https://creativecommons.org/licenses/">Creative Commons (CC)</a> licenses:</p>
+<ul>
+<li>Can copies be made or even distributed?</li>
+<li>Do others (and you) reusing the dataset need to acknowledge you as the author of the original dataset? (“Attribution”)</li>
+<li>Do others (and you) who reuse the dataset and/or make derivatives of the dataset need to share their work under a similar licence? (“Share-Alike”)</li>
+<li>Can others (and you) use your dataset commercially? (A restriction on commercial use is called “Non-Commercial”)</li>
+<li>Can others (and you) create a new work based on the dataset? (“Derivative”)</li>
+</ul>
 <p>There are other considerations and licenses as well, however, CC licenses are commonly used. If you need help choosing a CC license, please check this and this resource.</p>
 <section id="custom-licenses" class="level4">
 <h4 class="anchored" data-anchor-id="custom-licenses">Custom licenses</h4>
@@ -4377,7 +4396,16 @@ color: #CA5F87;
 </section>
 <section id="implementing-a-custom-license-in-yoda" class="level4">
 <h4 class="anchored" data-anchor-id="implementing-a-custom-license-in-yoda">Implementing a custom license in YODA</h4>
-<p>When using a custom license, please make sure to upload the license agreement as a PDF file in YODA. In the metadata of the data package, please indicate that a custom license is used and refer to the uploaded license agreement. When filling in the metadata, there are several licenses available in YODA, such as different types of Creative Commons licenses or an Open Data Commons license. In case the listed licenses are not suitable for your data package, or if you publish your data package under Restricted or Closed Access, you should create a custom license instead. When Custom is chosen, a License.txt file must be uploaded into the main folder of the data package. The custom license must provide information about: - Access conditions: how can access can be requested? What does the requester need to do or deliver before gaining access? At the very least, provide a contact point in the data package description. - Usage conditions: - Permissions: who can reuse the data and for which purposes (research, education, commercial)? - Obligations: for example, are there requirements related to data security? - Prohibitions: for example, are there restrictions to sharing the data further?</p>
+<p>When using a custom license, please make sure to upload the license agreement as a PDF file in YODA. In the metadata of the data package, please indicate that a custom license is used and refer to the uploaded license agreement. When filling in the metadata, there are several licenses available in YODA, such as different types of Creative Commons licenses or an Open Data Commons license. In case the listed licenses are not suitable for your data package, or if you publish your data package under Restricted or Closed Access, you should create a custom license instead. When Custom is chosen, a License.txt file must be uploaded into the main folder of the data package. The custom license must provide information about:</p>
+<ul>
+<li><p>Access conditions: how can access can be requested? What does the requester need to do or deliver before gaining access? At the very least, provide a contact point in the data package description.</p></li>
+<li><p>Usage conditions:</p>
+<ul>
+<li>Permissions: who can reuse the data and for which purposes (research, education, commercial)?</li>
+<li>Obligations: for example, are there requirements related to data security?</li>
+<li>Prohibitions: for example, are there restrictions to sharing the data further?</li>
+</ul></li>
+</ul>
 </section>
 </section>
 <section id="minimal-requirements" class="level3">

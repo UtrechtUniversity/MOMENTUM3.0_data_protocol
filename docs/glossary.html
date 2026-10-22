@@ -4028,6 +4028,15 @@ border-left-color: #CA5F87 !important;
 }
 main.content a {
 color: #CA5F87;
+}
+
+div.callout.momentum-callout {
+border-left-color: #CA5F87 !important;
+background-color: #fbf1f5;
+}
+
+div.callout.momentum-callout .callout-body {
+color: #333C68;
 }</style>
 </head>
 
@@ -4294,163 +4303,141 @@ color: #CA5F87;
 <section id="fair-rdm-glossary" class="level4">
 <h4 class="anchored" data-anchor-id="fair-rdm-glossary">FAIR RDM Glossary</h4>
 <p>Terminology taken from the PATTERN Training material <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<table class="table">
-<caption>Definition of common data terms {tbl-colwidths=&#39;[25,50,25]&#39;}</caption>
+<div id="tbl-data-terms" class="hover quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[25,50,25]">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-data-terms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-hover table">
 <colgroup>
-<col style="width: 5%">
-<col style="width: 69%">
+<col style="width: 25%">
+<col style="width: 50%">
 <col style="width: 25%">
 </colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Term</th>
+<th style="text-align: left;">Definition</th>
+<th style="text-align: left;">Source</th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td>Term</td>
-<td>Definition</td>
-<td>Source</td>
+<td style="text-align: left;">Data</td>
+<td style="text-align: left;">Data, in its simplest form, refers to information that can be collected, stored, analyzed, and shared.</td>
+<td style="text-align: left;"><a href="https://geo-data-support.sites.uu.nl/what-is-research-data/">Utrecht University - Geo Data Support for Researchers</a></td>
 </tr>
 <tr class="even">
-<td>Data</td>
-<td>Data, in its simplest form, refers to information that can be collected, stored, analyzed, and shared.</td>
-<td>https://geo-data-support.sites.uu.nl/what-is-research-data/</td>
+<td style="text-align: left;">Dataset</td>
+<td style="text-align: left;">A dataset is any organized collection of data. The most basic dataset is composed of data elements in a table. Each column represents a particular variable. Each row corresponds to a given value of that column’s variable. A dataset may also present information in a variety of non-tabular formats, such as an extended mark-up language (XML) file, a geospatial data file, or an image file. Dataset is a flexible term and may refer to an entire database, a spreadsheet or other data file, or a related collection of data resources.</td>
+<td style="text-align: left;"><a href="https://data.ca.gov/pages/open-data-glossary">California Department of Technology - Open Data Glossary</a></td>
 </tr>
 <tr class="odd">
-<td>Dataset</td>
-<td>A dataset is any organized collection of data. The most basic dataset is composed of data elements in a table. Each column represents a particular variable. Each row corresponds to a given value of that column’s variable. A dataset may also present information in a variety of non-tabular formats, such as an extended mark-up language (XML) file, a geospatial data file, or an image file. Dataset is a flexible term and may refer to an entire database, a spreadsheet or other data file, or a related collection of data resources.</td>
-<td>https://data.ca.gov/pages/open-data-glossary</td>
+<td style="text-align: left;">Data Management Plan</td>
+<td style="text-align: left;">A Data Management Plan (DMP) is a formal document you develop at the start of your research project which outlines all aspects of managing your data, both during and after your project. It contains, among others:<br><br></td>
+<td style="text-align: left;"><a href="https://www.uu.nl/en/research/research-data-management/guides/data-management-planning">Utrecht University - Data Management Planning</a></td>
 </tr>
 <tr class="even">
-<td rowspan="8">Data Management Plan</td>
-<td>A Data Management Plan (DMP) is a formal document you develop at the start of your research project which outlines all aspects of managing your data, both during and after your project. It contains, among others:</td>
-<td>https://www.uu.nl/en/research/research-data-management/guides/data-management-planning</td>
+<td style="text-align: left;">FAIR</td>
+<td style="text-align: left;">Findable, Accessible, Interoperable, Reusable</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
-<td>●      what data you will collect (type, size)</td>
-<td rowspan="8"></td>
+<td style="text-align: left;">Research Data Management (RDM)</td>
+<td style="text-align: left;">Research data management refers to the handling of research data (collection, organisation, storage, and documentation) during and after a research activity. Good data management helps ensure that researchers share their data in a FAIR way (findable, accessible, interoperable, and re-useable).</td>
+<td style="text-align: left;"><a href="https://www.scienceeurope.org/our-priorities/open-science/research-data-management/">Science Europe - Research Data Management</a></td>
 </tr>
 <tr class="even">
-<td>●      where you will store them, who will have access to them and how access is regulated</td>
+<td style="text-align: left;">Metadata</td>
+<td style="text-align: left;">Data associated with an information object for purposes of description, administration, legal requirements, technical functionality, use and usage, and preservation<br><br>Metadata is information about a dataset that makes the data easier to find or identify. Metadata includes the title and description, method of collection, limitations, author, publisher, area and time period covered, license, date and frequency of release. Metadata describes the dataset’s structure, data elements, its creation, access, format, and content.</td>
+<td style="text-align: left;"><a href="https://www.getty.edu/research/publications/electronic_publications/intrometadata/setting.pdf">Getty Research Institute</a></td>
 </tr>
 <tr class="odd">
-<td>●      how often you will back-up your data</td>
+<td style="text-align: left;">Persistent identifier</td>
+<td style="text-align: left;">Persistent identifier (PID) is a long-lasting reference to a resource that provides the information required to reliably identify, verify and locate the resource. In a digital environment, PIDs have the form of URLs. When pasted in a browser, they take users to the resource.</td>
+<td style="text-align: left;"><a href="https://www.openaire.eu/guides/">OpenAIRE Guides</a></td>
 </tr>
 <tr class="even">
-<td>●      how you will document your data</td>
+<td style="text-align: left;">CC0 1.0</td>
+<td style="text-align: left;">CC0 (aka CC Zero) is a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain.</td>
+<td style="text-align: left;"><a href="https://creativecommons.org/cc-licenses/">Creative Commons - About CC Licenses</a></td>
 </tr>
 <tr class="odd">
-<td>●      the versioning strategy and folder structure you will use</td>
+<td style="text-align: left;">Preferred file formats</td>
+<td style="text-align: left;">Preferred formats are file formats of which DANS – based on international agreements – is confident that they will offer the best long-term guarantees in terms of usability, accessibility and sustainability. Deposits of research data in preferred formats will always be accepted by DANS.</td>
+<td style="text-align: left;"><a href="https://dans.knaw.nl/en/file-formats/">DANS - File Formats</a></td>
 </tr>
 <tr class="even">
-<td>●      whether there are any privacy and ownership issues</td>
+<td style="text-align: left;">Open file formats</td>
+<td style="text-align: left;">Open File Formats are file formats that are published and freely available for anyone to use. A file format is a standard way of encoding storage of computer information. Open file formats can be contrasted with proprietary, protected file formats. Open file formats are often recommended for preservation purposes because they typically do not require special software to open.</td>
+<td style="text-align: left;"><a href="https://www.nnlm.gov/guides/data-glossary/open-file-formats">NIH - Open file formats</a></td>
 </tr>
 <tr class="odd">
-<td>●      whether and how you are planning to archive and share your data.</td>
+<td style="text-align: left;">FAIR-Aware tool</td>
+<td style="text-align: left;">The FAIR-Aware tool helps you assess your knowledge of the FAIR Principles, and better understand how making your data(set) FAIR can increase the potential value and impact of your data.</td>
+<td style="text-align: left;"><a href="https://fairaware.dans.knaw.nl/">DANS - FAIR Tool</a></td>
 </tr>
 <tr class="even">
-<td>FAIR</td>
-<td>Findable, Accessible, Interoperable, Reusable</td>
+<td style="text-align: left;">Open data</td>
+<td style="text-align: left;">Data is open if it can be freely accessed, used, modified and shared by anyone for any purpose (http://opendefinition.org/). For Data.ca.gov, open data is regularly updated and comes from an authoritative</td>
+<td style="text-align: left;"><a href="https://data.ca.gov/pages/open-data-glossary">California DEpartment of Technology</a></td>
 </tr>
 <tr class="odd">
-<td>Research Data Management (RDM)</td>
-<td>Research data management refers to the handling of research data (collection, organisation, storage, and documentation) during and after a research activity. Good data management helps ensure that researchers share their data in a FAIR way (findable, accessible, interoperable, and re-useable).</td>
-<td>https://www.scienceeurope.org/our-priorities/open-science/research-data-management/</td>
+<td style="text-align: left;">Data documentation</td>
+<td style="text-align: left;">Data documentation includes various types of information that can help find, assess, understand/interpret, and (re)use research data – e.g. information about methods, protocols, datasets to be used and data files, preliminary findings, etc. Documentation helps understand the context in which data were created, as well as the structure and the content of data. Data should be documented through all stages of the research data lifecycle. Detailed and rich documentation ensures reproducibility and upholds research integrity. Documentation also includes metadata.</td>
+<td style="text-align: left;"><a href="https://www.openaire.eu/rdm-glossary">Open AIRE - RDM Glossary</a></td>
 </tr>
 <tr class="even">
-<td rowspan="2">Metadata</td>
-<td>Data associated with an information object for purposes of description, administration, legal requirements, technical functionality, use and usage, and preservation</td>
-<td rowspan="2">Getty Research Institute (https://www.getty.edu/research/publications/electronic_publications/intrometadata/setting.pdf)</td>
+<td style="text-align: left;">ReadMe file</td>
+<td style="text-align: left;">A readme file provides information about a data file and is intended to help ensure that the data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data.</td>
+<td style="text-align: left;"><a href="https://data.research.cornell.edu/data-management/sharing/readme/">Cornell University - README files</a></td>
 </tr>
 <tr class="odd">
-<td>Metadata is information about a dataset that makes the data easier to find or identify. Metadata includes the title and description, method of collection, limitations, author, publisher, area and time period covered, license, date and frequency of release. Metadata describes the dataset’s structure, data elements, its creation, access, format, and content.</td>
+<td style="text-align: left;">Tidy Data principles</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"><a href="https://datacarpentry.org/semester-biology/materials/tidy-data/">Data carpentry - Tidy Data</a></td>
 </tr>
 <tr class="even">
-<td>Persistent identifier</td>
-<td>Persistent identifier (PID) is a long-lasting reference to a resource that provides the information required to reliably identify, verify and locate the resource. In a digital environment, PIDs have the form of URLs. When pasted in a browser, they take users to the resource.</td>
-<td>https://www.openaire.eu/guides/</td>
+<td style="text-align: left;">Knowledge Organisation System (KOS)</td>
+<td style="text-align: left;">Generic term used for referring to a wide range of items (e.g. subject headings, thesauri, classification schemes and ontologies), which have been conceived with respect to different purposes, in distinct historical moments. They are characterized by different specific structures and functions, varied ways of relating to technology, and used in a plurality of contexts by diverse communities. However, what they all have in common is that they have been designed to support the organization of knowledge and information in order to make their management and retrieval easier.</td>
+<td style="text-align: left;"><a href="https://www.isko.org/cyclo/kos">ISKO - KOS</a></td>
 </tr>
 <tr class="odd">
-<td>CC0 1.0</td>
-<td>CC0 (aka CC Zero) is a public dedication tool, which enables creators to give up their copyright and put their works into the worldwide public domain.</td>
-<td>About CC Licenses - Creative Commons</td>
+<td style="text-align: left;">MARC</td>
+<td style="text-align: left;">MARC (machine-readable cataloging). The MARC formats are standards for the representation and communication of bibliographic and related information in machine-readable form.</td>
+<td style="text-align: left;"><a href="https://www.loc.gov/marc/">MARC Standards</a></td>
 </tr>
 <tr class="even">
-<td>Preferred file formats</td>
-<td>Preferred formats are file formats of which DANS – based on international agreements – is confident that they will offer the best long-term guarantees in terms of usability, accessibility and sustainability. Deposits of research data in preferred formats will always be accepted by DANS.</td>
-<td>https://dans.knaw.nl/en/file-formats/</td>
+<td style="text-align: left;">Linked Open Data</td>
+<td style="text-align: left;">Data where relationships/connections between them are available to allow easy data access.<br><br>A typical case of a large Linked dataset is DBPedia (http://dbpedia.org/), which essentially makes the content of Wikipedia available in RDF. This related collection of interrelated datasets is stored on the Web and available via a common format RDF.</td>
+<td style="text-align: left;"><a href="https://codata.org/initiatives/data-science-and-stewardship/rdm-terminology-wg/">CODATA Research Data Management Terminology</a><br><br><a href="https://doi.org/10.5281/zenodo.10626170">CODATA RDM Terminology Working Group</a></td>
 </tr>
 <tr class="odd">
-<td>Open file formats</td>
-<td>Open File Formats are file formats that are published and freely available for anyone to use. A file format is a standard way of encoding storage of computer information. Open file formats can be contrasted with proprietary, protected file formats. Open file formats are often recommended for preservation purposes because they typically do not require special software to open.</td>
-<td>https://www.nnlm.gov/guides/data-glossary/open-file-formats</td>
+<td style="text-align: left;">API - Application Programming Interface</td>
+<td style="text-align: left;">An API is a collection of definitions, protocols and instruments that interact and communicate with each other.</td>
+<td style="text-align: left;"></td>
 </tr>
 <tr class="even">
-<td>FAIR-Aware tool</td>
-<td>The FAIR-Aware tool helps you assess your knowledge of the FAIR Principles, and better understand how making your data(set) FAIR can increase the potential value and impact of your data.</td>
-<td>https://fairaware.dans.knaw.nl/</td>
+<td style="text-align: left;">Schema</td>
+<td style="text-align: left;">Metadata schemas (or metadata standards) are compilations of categories for describing data. A distinction is made between interdisciplinary or independent standards and discipline-specific or dependent standards. Metadata schemas are intended to ensure that all researchers use the same descriptive vocabulary in order to guarantee interoperability and thus comparability of data sets.</td>
+<td style="text-align: left;"><a href="https://www.uni-marburg.de/en/hefdi/data-information-consulting/frequently-asked-questions-faq/publishing-and-sharing-research-data/what-are-metadata-metadata-schemas-controlled-vocabularies-and-documentation">Marburg University - Hessian Research Data Infrastructures</a></td>
 </tr>
 <tr class="odd">
-<td>Open data</td>
-<td>Data is open if it can be freely accessed, used, modified and shared by anyone for any purpose (http://opendefinition.org/). For Data.ca.gov, open data is regularly updated and comes from an authoritative</td>
-<td>https://data.ca.gov/pages/open-data-glossary</td>
+<td style="text-align: left;">RDF Triple</td>
+<td style="text-align: left;">As its name indicates, a triple is a sequence of three entities that codifies a statement about semantic data in the form of subject–predicate–object expressions (e.g., “Bob is 35”, or “Bob knows John”).</td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Semantic_triple">Wikipedia</a></td>
 </tr>
 <tr class="even">
-<td>Data documentation</td>
-<td>Data documentation includes various types of information that can help find, assess, understand/interpret, and (re)use research data – e.g. information about methods, protocols, datasets to be used and data files, preliminary findings, etc. Documentation helps understand the context in which data were created, as well as the structure and the content of data. Data should be documented through all stages of the research data lifecycle. Detailed and rich documentation ensures reproducibility and upholds research integrity. Documentation also includes metadata.</td>
-<td>https://www.openaire.eu/rdm-glossary</td>
-</tr>
-<tr class="odd">
-<td>ReadMe file</td>
-<td>A readme file provides information about a data file and is intended to help ensure that the data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data.</td>
-<td>https://data.research.cornell.edu/data-management/sharing/readme/</td>
-</tr>
-<tr class="even">
-<td rowspan="2">Tidy Data principles</td>
-<td>●      Tidy data is data that is well designed for working with using computers</td>
-<td>https://datacarpentry.org/semester-biology/materials/tidy-data/</td>
-</tr>
-<tr class="odd">
-<td>●      Creating tidy data as you collect it will make it much easier to analyze it later</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>Knowledge Organisation System (KOS)</td>
-<td>Generic term used for referring to a wide range of items (e.g. subject headings, thesauri, classification schemes and ontologies), which have been conceived with respect to different purposes, in distinct historical moments. They are characterized by different specific structures and functions, varied ways of relating to technology, and used in a plurality of contexts by diverse communities. However, what they all have in common is that they have been designed to support the organization of knowledge and information in order to make their management and retrieval easier.</td>
-<td>https://www.isko.org/cyclo/kos</td>
-</tr>
-<tr class="odd">
-<td>MARC</td>
-<td>MARC (machine-readable cataloging). The MARC formats are standards for the representation and communication of bibliographic and related information in machine-readable form.</td>
-<td>https://www.loc.gov/marc/</td>
-</tr>
-<tr class="even">
-<td rowspan="2">Linked Open Data</td>
-<td>Data where relationships/connections between them are available to allow easy data access.</td>
-<td>CODATA Research Data Management Terminology</td>
-</tr>
-<tr class="odd">
-<td>A typical case of a large Linked dataset is DBPedia (http://dbpedia.org/), which essentially makes the content of Wikipedia available in RDF. This related collection of interrelated datasets is stored on the Web and available via a common format RDF.</td>
-<td>https://doi.org/10.5281/zenodo.10626170</td>
-</tr>
-<tr class="even">
-<td>API - Application Programming Interface</td>
-<td>An API is a collection of definitions, protocols and instruments that interact and communicate with each other.</td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>Schema</td>
-<td>Metadata schemas (or metadata standards) are compilations of categories for describing data. A distinction is made between interdisciplinary or independent standards and discipline-specific or dependent standards. Metadata schemas are intended to ensure that all researchers use the same descriptive vocabulary in order to guarantee interoperability and thus comparability of data sets.</td>
-<td>https://www.uni-marburg.de/en/hefdi/data-information-consulting/frequently-asked-questions-faq/publishing-and-sharing-research-data/what-are-metadata-metadata-schemas-controlled-vocabularies-and-documentation</td>
-</tr>
-<tr class="even">
-<td>RDF Triple</td>
-<td>As its name indicates, a triple is a sequence of three entities that codifies a statement about semantic data in the form of subject–predicate–object expressions (e.g., “Bob is 35”, or “Bob knows John”).</td>
-<td>Wikipedia</td>
-</tr>
-<tr class="odd">
-<td>Repository</td>
-<td>Physical or digital storage location that can house, preserve, manage, and provide access to many types of digital and physical materials in a variety of formats. Materials in online repositories are curated to enable search, discovery, and reuse. There must be sufficient control for the physical and digital material to be authentic, reliable, accessible and usable on a continuing basis.</td>
-<td>CODATA RDM Terminology Working Group. (2024). CODATA RDM Terminology (2023 version): overview (Version 2023). Zenodo. https://doi.org/10.5281/zenodo.10626170</td>
+<td style="text-align: left;">Repository</td>
+<td style="text-align: left;">Physical or digital storage location that can house, preserve, manage, and provide access to many types of digital and physical materials in a variety of formats. Materials in online repositories are curated to enable search, discovery, and reuse. There must be sufficient control for the physical and digital material to be authentic, reliable, accessible and usable on a continuing basis.</td>
+<td style="text-align: left;"><a href="https://doi.org/10.5281/zenodo.10626170">CODATA RDM Terminology Working Group</a></td>
 </tr>
 </tbody>
 </table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-data-terms-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table 1: Definition of common data terms
+</figcaption>
+</figure>
+</div>
 
 
 </section>

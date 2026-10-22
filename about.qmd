@@ -4,6 +4,6 @@ title: "About Momentum"
 
 This website provides guidance for data management within MOMENTUM 3.0.
 
-Visit the [webpage](https://momentummicroplastics.nl/) to find out more about the research project.
+Visit the [MOMENTI website](https://momentummicroplastics.nl/) to find out more about the research project.
 
 ![Screenshot of Momentum's website](/images/website_scrshot.png)

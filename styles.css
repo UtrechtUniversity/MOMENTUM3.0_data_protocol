@@ -25,3 +25,14 @@
 main.content a {
   color: #CA5F87;
 }
+
+/* Custom emphasis box */
+div.callout.momentum-callout {
+  border-left-color: #CA5F87 !important;
+  background-color: #fbf1f5;
+}
+
+/* Box text */
+div.callout.momentum-callout .callout-body {
+  color: #333C68;
+}

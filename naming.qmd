@@ -31,7 +31,6 @@ tbl-cap-location: bottom
 |             |  - VP = Valorisphere                                                  |
 |             |  - VC = Vitrocell                                                     |
 |             |  - WUR = Wageningen University & Research                             |
-|             |  - DELT = Stichting Deltares                                          |
 |             |  - ZMC = Zuyderland Medisch Centrum                                   |
 +-------------+-----------------------------------------------------------------------+
 
@@ -62,6 +61,7 @@ tbl-cap-location: bottom
 : Naming of data files {.hover}
 
 
-::: {.callout-note icon="false" appearence='simple'}
+::: {.callout-note .momentum-callout icon="false" appearance="simple"}
+
 This way of naming makes it easy to trace back potential incorrectness of data, in case amendments to the eNanomapper database are necessary.
 :::

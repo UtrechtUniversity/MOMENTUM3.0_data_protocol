@@ -5,23 +5,26 @@ lightbox: true
 
 ### YODA
 
-**YODA** is used in two ways within MOMENTUM. First, as a forum for file exchange to get suitable data into ENM (as direct upload is not supported). This means that ENM templates (filled by data generators) are uploaded here. Furthermore, Yoda is the chosen repository for long-term archiving and publishing as it is especially suitable for large files and managed by UU, who coordinates MOMENTUM. 
+**YODA** is used in two ways within MOMENTUM. First, as a forum for file exchange to get suitable data into ENM (as direct upload is not supported). This means that ENM templates (filled by data generators) are uploaded here. Second, YODA is the chosen repository for long-term archiving and publishing as it is especially suitable for large files and managed by MOMENTUM 3.0 Data Steward.
 
-::: {.callout-tip icon="false" appearence="simple" collapse="true"}
-More information and a detailed "manual" about YODA can be found on their [website](https://www.uu.nl/en/research/yoda/guide-to-yoda).
+::: {.callout-tip .momentum-callout icon="false" appearance="simple"}
+
+More information and a detailed "manual" about YODA can be found [here](https://www.uu.nl/en/research/yoda/guide-to-yoda).
 :::
 
-::: {.callout-tip icon="false" appearence="simple" collapse="true"}
+::: {.callout-tip .momentum-callout icon="false" appearance="simple"}
 ## Good to know
-Apart from storage, data can also be published straight from YODA.
+
+YODA not only serves as a storage and archiving solution, but also allows for direct publication of data providing a DOI.
 :::
 
-Data generators receive an email to register, after which they can access the dedicated [website](https://dgk.yoda.uu.nl/) for data upload.
+Upon request, data generators receive an email to register and can access the dedicated [YODA directory](https://dgk.yoda.uu.nl/) for data upload.
 
 The main folder is called **"research-enanomapper"** with an **"enm_filesharing"** and a **"for_publication"** folder within. There is also a README.txt file giving extra information on file naming. This information is also available under the [**naming convention**](/naming.qmd) tab.
 
-::: {.callout-note icon="false" appearence="simple"}
-Only MOMENTUM data generators, the responsible person from eNanomapper and data managers have access to this environment.
+::: {.callout-note .momentum-callout icon="false" appearance="simple"}
+
+Only MOMENTUM 3.0 data generators, the responsible person from eNanomapper and data managers have access to this environment.
 :::
 
 #### Explanation of folder stucture
@@ -41,7 +44,7 @@ As mentioned before, **all MOMENTUM data underlying a publication** needs to be 
 
 [^1]: https://enanomapper.adma.ai/about/
 
-#### How to use eNanomapper for Momemtum data
+#### How to use eNanomapper for MOMENTUM data
 
 -   Navigate to the [**template wizard**](https://enanomapper.adma.ai/projects/momentum/datatemplates/) of MOMENTUM.
 -   Find template corresponding to experiment and adjust variables in the wizard. After downloading, fill in Excel sheet. In case the layout does not fit the experimental output (/you wish to adjust template layout to fit your data), please create a template in the [**template designer**](https://enanomapper.adma.ai/templates) instead. Templates obtained from the wizard and changed after download are not suitable for the data transfer into eNanomapper.
@@ -50,7 +53,7 @@ As mentioned before, **all MOMENTUM data underlying a publication** needs to be 
 -   There are no sub-folders in the publication folder yet so create one for your paper. Data that is not going to be published can also be placed in YODA. Please follow the same naming convention for traceability.
 
 
-::: {.callout-important icon="false" appearence="simple"}
+::: {.callout-important .momentum-callout icon="false" appearance="simple"}
 ## Template wizard
 
 For a more elaborate walk-through, please consult the [user guide](https://enanomapper.adma.ai/assets/img/guide/guide.pdf) for the Template wizard.
@@ -59,7 +62,7 @@ For a more elaborate walk-through, please consult the [user guide](https://enano
 #### How to use the Template Designer
 - You can see the different steps of designing your own template on the [**Template designer tab**](/designer.qmd).
 
-::: {.callout-note icon="false" appearence="simple" collapse="true"}
+::: {.callout-note .momentum-callout icon="false" appearance="simple"}
 ## Next step
 
 When the folders are populated with data, the partner from eNanomapper can fetch this data and parse it into the eNanomapper database.
